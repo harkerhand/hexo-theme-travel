@@ -1,0 +1,32 @@
+{
+  "name": "hexo-theme-travel",
+  "version": "1.0.0",
+  "description": "Travel 是一个简洁、美观且响应式的作品集主题，适用于 Hexo 静态网站生成器。",
+  "main": "package.json",
+  "files": [
+    "layout",
+    "source",
+    "_config.yml"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harkerhand/hexo-theme-travel.git"
+  },
+  "keywords": [
+    "hexo",
+    "theme",
+    "travel"
+  ],
+  "author": "harkerhand (https://github.com/harkerhand)",
+  "license": "GPL-V3",
+  "bugs": {
+    "url": "https://github.com/harkerhand/hexo-theme-travel/issues"
+  },
+  "homepage": "https://github.com/harkerhand/hexo-theme-travel#readme",
+  "engines": {
+    "node": ">=14"
+  },
+  "peerDependencies": {
+    "nunjucks": "^3.0.0"
+  }
+}
