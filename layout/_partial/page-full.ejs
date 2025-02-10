@@ -1,0 +1,11 @@
+<% if (item.cover_image){ %>
+  <div class="img-container">
+    <img class="page-img" src="<%- config.root %><%- item.cover_image %>" alt="<%- item.title || 'Untitled' %>">
+  </div>
+  <% } %>
+  
+<div class="content-container">
+  <div class="inner-content">
+    <%- item.content %>
+  </div>
+</div>

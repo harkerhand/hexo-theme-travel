@@ -1,0 +1,42 @@
+<footer class="footer">
+    <%- css('css/footer.css') %>
+    <div class="footer-container">
+        <div class="about-us">
+            <h2>关于我们</h2>
+            <p><%- theme.foot_about.phone %> | <%- theme.foot_about.address %>
+            </p>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="focus-us">
+            <% theme.iconfont.forEach(function(icon) { %>
+                <%- css(icon) %>
+            <% }); %>
+            <h2>关注我们</h2>
+            <ul class="social-links">
+                <% theme.media.forEach(function(platform) { %>
+                    <li>
+                        <a href="<%- url_for(platform.link) %>" target="_blank"
+                            <% if (platform.tip) { %>
+                                title="<%= platform.tip %>"
+                            <% } %>
+                        >
+                            <% if (platform.tip) { %>
+                                <span><%= platform.tip %></span>
+                            <% } %>
+                            <i class="<%- platform.icon %>" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                <% }); %>
+            </ul>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="copy-right">
+            <p>&copy; <%- new Date().getFullYear() %> <%= config.author %></p>
+            <p>本网站内容受相关法律保护，未经授权不得转载或使用。</p>
+        </div>
+    </div>
+</footer>

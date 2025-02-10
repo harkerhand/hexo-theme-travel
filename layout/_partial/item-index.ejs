@@ -1,0 +1,11 @@
+<div class="index-item">
+  <div class="hovereffect">
+    <a href="<%- config.root %><%- item.path %>">
+      <img class="index-img" src="<%- config.root %><%- item.cover_image || theme.default_cover_image %>"
+        alt="<%- item.title || theme.default_post_title || " Untitled" %>">
+      <div class="overlay">
+        <span class="overlay-text"><%- item.title || theme.default_post_title || "Untitled" %></span>
+      </div>
+    </a>
+  </div>
+</div>

@@ -1,0 +1,11 @@
+<div class="img-container">
+  <img class="project-img" src="<%- config.root %><%- item.cover_image || theme.default_cover_image %>" alt="<%- item.title || theme.default_post_title || "Untitled" %>">
+</div>
+<div class="content-container">
+  <div class="post-title">
+    <h1><%- item.title || theme.default_post_title || "Untitled" %></h1>
+  </div>
+  <div class="inner-content">
+    <%- item.content %>
+  </div>
+</div>

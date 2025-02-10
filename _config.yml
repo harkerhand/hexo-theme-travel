@@ -1,0 +1,35 @@
+
+default_cover_image: images/default_back.jpg
+default_post_title: 'Titel'
+info_text: '↓    ↓'
+main_back_video: 'videos/main.mp4'
+url_root: '/'
+
+
+# Header
+menu:
+  '了解更多': /about
+  '自然风光': /nature
+  '联系方式': /contact
+  '走进周至': https://www.zhouzhi.gov.cn/rwzz/
+
+foot_about:
+  phone: '8888 8888'
+  address: '地球'
+
+media:
+  - icon: iconfont icon-wechat-fill
+    link: '#'
+    tip: '微信公众号'
+  - icon: iconfont icon-weibo-fill
+    link: '#'
+    tip: '新浪微博'
+  - icon: iconfont icon-douyin
+    link: '#'
+    tip: '抖音号'
+
+
+    
+iconfont:
+- //at.alicdn.com/t/c/font_1736178_k526ubmyhba.css
+- //at.alicdn.com/t/c/font_4823232_6grnmuy6d4c.css
